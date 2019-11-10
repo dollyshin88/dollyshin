@@ -10,7 +10,7 @@ import SkillsSection from './skillsSection';
 const Home = () => {
 
     return (
-        <div>
+        <>
           <Header />
           <HelloSection />
           <AboutSection />
@@ -35,14 +35,10 @@ const Home = () => {
             <div className='connectLines'></div>
           </div>
           <ConnectSection />
-        </div>
+        </>
       );
 }
 
-const styles = StyleSheet.create({
-  center: {
-    position: 'relative'
-  }
-})
+
 
 export default Home;

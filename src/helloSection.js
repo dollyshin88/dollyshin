@@ -3,7 +3,7 @@ import React from 'react';
 const HelloSection = () => {
 
     return (
-        <div className='colorBlockDiv'>
+        <div id='hello' className='colorBlockDiv'>
             <div className='introText'>
                 <div>Hello, I am </div>
                 <div className='posRel introText__placeholder flexContainerRow flexCenterAlign'>

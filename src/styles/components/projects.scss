@@ -97,7 +97,14 @@
 }
 
 @media screen and (max-width: 600px) {
-
+    .projectPhotoCircle {
+        width: 40vw;
+        height: 40vw;
+    }
+    .outerCircle {
+        width: 43vw;
+        height: 43vw;
+    }
     .headerText {
         font-size: 2.3rem;
     }
@@ -114,5 +121,21 @@
     .projLink {
         margin-right: 10px;
         font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .projectPhotoCircle {
+        width: 50vw;
+        height: 50vw;
+    }
+    .outerCircle {
+        width: 52vw;
+        height: 52vw;
+    }
+    .projectItem {
+        &__body {
+            width: 250px;
+        }
     }
 }

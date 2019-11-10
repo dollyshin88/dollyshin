@@ -29,7 +29,7 @@ const ProjectsSection = () => {
         },
     ]
     return (
-        <div className='sectionBuff'>
+        <div id='projectSection' className='sectionBuff'>
             <div className='headerDivider'></div>
             <div className='headerText'>Recent Projects</div>
             {projects.map(proj => (

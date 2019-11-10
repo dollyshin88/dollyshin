@@ -19,6 +19,12 @@
     background-color: $mainYellow;
     color: $mainGray;
 }
+.connectCardGroup {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
 .linkedinIcon {
     color:#0076b5;
 }
@@ -37,7 +43,7 @@
 .connectLines{
     height: 1px;
     border: 1px solid $mainYellow;
-    width: 100vw;
+    width: 98vw;
     transform: rotate(1deg);
     &:nth-child(2) {
         transform: rotate(2deg);
@@ -54,22 +60,17 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 776px) {
     .connectCard {
-    width: 300px;
-    height: 100px;
-    box-shadow: 2px 5px 10px 0 rgba(38, 34, 21, 0.4);
-    border-radius: 2px;
-    font-size: 1.5rem;
-    font-family: $textFont;
-    color: $lighterGray;
-
-    margin-right: 20px;
-    margin-bottom: 30px;
-    i {
-        margin-right: 20px;
-        font-size: 3rem;
-        
+        width: 300px;
+        height: 100px;
+        font-size: 1.5rem;
+        margin-right: 0px;
+        i {
+            font-size: 3rem;
+        }
     }
-}
+    .connectCardGroup {
+        flex-direction: column;
+    }   
 }

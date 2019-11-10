@@ -9,7 +9,7 @@ import Home from './home';
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div style={{width: '100vw'}}>
         <Home />
       </div>
     );

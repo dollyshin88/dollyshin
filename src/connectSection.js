@@ -2,10 +2,10 @@ import React from 'react';
 
 const ConnectSection = () => {
     return (
-        <div className='sectionBuff'>
+        <div id='connectSection' className='sectionBuff'>
             <div className='headerDivider'></div>
             <div className='connectHeader'>Connect</div>
-            <div className='flexContainerRow flexCenterAlign flexWrap'>
+            <div className='connectCardGroup'>
                 <div className='connectCard flexContainerRow flexCenterAlign'>
                     <div><i class="fab fa-linkedin linkedinIcon"></i></div>
                     <div>LinkedIn</div>
