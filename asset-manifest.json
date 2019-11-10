@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/hello/static/css/main.a7c8d858.chunk.css",
+    "main.js": "/hello/static/js/main.1414a434.chunk.js",
+    "main.js.map": "/hello/static/js/main.1414a434.chunk.js.map",
+    "runtime-main.js": "/hello/static/js/runtime-main.69093a35.js",
+    "runtime-main.js.map": "/hello/static/js/runtime-main.69093a35.js.map",
+    "static/js/2.2239b062.chunk.js": "/hello/static/js/2.2239b062.chunk.js",
+    "static/js/2.2239b062.chunk.js.map": "/hello/static/js/2.2239b062.chunk.js.map",
+    "index.html": "/hello/index.html",
+    "precache-manifest.864b642674a0f25d7abe94ed1403a96f.js": "/hello/precache-manifest.864b642674a0f25d7abe94ed1403a96f.js",
+    "service-worker.js": "/hello/service-worker.js",
+    "static/css/main.a7c8d858.chunk.css.map": "/hello/static/css/main.a7c8d858.chunk.css.map",
+    "static/media/Dolly_Shin_Resume.pdf": "/hello/static/media/Dolly_Shin_Resume.21bfa07f.pdf",
+    "static/media/cssIcon.svg": "/hello/static/media/cssIcon.f616e41c.svg",
+    "static/media/expressIcon.svg": "/hello/static/media/expressIcon.93ed2ff9.svg",
+    "static/media/gitIcon.svg": "/hello/static/media/gitIcon.4ee8170f.svg",
+    "static/media/htmlIcon.svg": "/hello/static/media/htmlIcon.971dccad.svg",
+    "static/media/jsIcon.svg": "/hello/static/media/jsIcon.0d165b05.svg",
+    "static/media/mongoIcon.svg": "/hello/static/media/mongoIcon.904383ca.svg",
+    "static/media/neurodb_project.png": "/hello/static/media/neurodb_project.6c9f38ab.png",
+    "static/media/nodeIcon.svg": "/hello/static/media/nodeIcon.5e032d80.svg",
+    "static/media/postIcon.svg": "/hello/static/media/postIcon.3616883c.svg",
+    "static/media/profile_photo_web.jpg": "/hello/static/media/profile_photo_web.000aeacb.jpg",
+    "static/media/railsIcon.svg": "/hello/static/media/railsIcon.7ec7ca31.svg",
+    "static/media/reactIcon.svg": "/hello/static/media/reactIcon.a70a30a4.svg",
+    "static/media/reduxIcon.svg": "/hello/static/media/reduxIcon.9e923eb1.svg",
+    "static/media/rubyIcon.svg": "/hello/static/media/rubyIcon.9948cf00.svg",
+    "static/media/samasana_project.png": "/hello/static/media/samasana_project.329e1274.png",
+    "static/media/sassIcon.svg": "/hello/static/media/sassIcon.32bab484.svg",
+    "static/media/sheep_project.png": "/hello/static/media/sheep_project.055a6623.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69093a35.js",
+    "static/js/2.2239b062.chunk.js",
+    "static/css/main.a7c8d858.chunk.css",
+    "static/js/main.1414a434.chunk.js"
+  ]
+}
