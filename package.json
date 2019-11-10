@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "main": "./App.js",
+  "homepage": "htttp://dollyshin88.github.io/hello",
   "dependencies": {
     "g": "^2.0.1",
     "node-sass": "^4.13.0",
