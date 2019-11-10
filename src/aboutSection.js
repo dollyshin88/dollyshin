@@ -39,9 +39,9 @@ const AboutSection = () => {
                 <div className='headlineText'>
                     I am a full stack developer based in <span>San Francisco</span>, with a passion for creating <span>purposful</span> and <span>intuitive</span> applications.
                 </div>
-                <div 
-                    className='btn btnHoverYellow'
-                    onClick={()=> (window.open('./images/Dolly_Shin_Resume.pdf'))}><a download href={resume}>Download Resume</a></div>
+                <div className='btn btnHoverYellow' onClick={() => { window.open('./static/media/Dolly_Shin_Resume.21bfa07f.pdf') }}>
+                    <p>Download Resume</p>
+                </div>
                 
             </div>
         </div>

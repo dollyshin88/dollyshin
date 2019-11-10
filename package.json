@@ -20,7 +20,7 @@
     "build-web": "react-scripts build",
     "test-web": "react-scripts test",
     "eject-web": "react-scripts eject",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build-web",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
