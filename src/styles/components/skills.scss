@@ -1,0 +1,49 @@
+#skillsSection {
+    min-height: 200px;
+    margin: 10vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.svgContainer {
+    max-width: 50px;
+    max-height: 200px;
+    margin-right: 30px;
+    
+}
+
+.skillsIcon__groupWrap {
+    margin-left: 30px;
+}
+
+.segmentHeader {   
+    font-size: 2.5rem;
+    margin-right: 50px;
+}
+.boldTextYellow {
+    font-family: $textMed;
+    color: $textYellow;
+}
+.label {
+    font-size: 0.8rem;
+    font-family:$textFont;
+    color: $lightGray;
+    margin-bottom:30px;
+}
+.upMargin {
+    margin-top: -15px;
+}
+
+@media screen and (max-width: 500px) {
+    #skillsSection {
+        flex-flow: column nowrap;
+    }
+    .segmentHeader {   
+        font-size: 2rem;
+        margin-bottom: 50px;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+}

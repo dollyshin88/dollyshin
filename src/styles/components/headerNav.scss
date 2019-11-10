@@ -1,0 +1,43 @@
+.horizontalButtonGroup {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navLinks {
+    margin-right: 20px;
+    color: white;
+    font-family: 'Montserrat-Medium';
+}
+
+.headerNav {
+    background-color: $mainYellow;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+.headerLeft {
+    font-size: 30px;
+    color: #fff;
+}
+
+@media screen and (max-width: 1243px) {
+    .headerLeft {
+        font-size: 20px;
+    }
+    .navLinks {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .headerLeft {
+        font-size: 14px;
+    }
+}

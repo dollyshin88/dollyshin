@@ -1,0 +1,118 @@
+.projectPhotoCircle {
+    width: 30vw;
+    height: 30vw;
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    img {
+        height: 100%;
+        width: auto;
+    }
+
+}
+.outerCircle {
+    width: 33vw;
+    height: 33vw;
+    max-width: 420px;
+    max-height: 420px;
+    border-radius: 50%;
+    border: 1px solid $mainYellow;
+    box-sizing: border-box;
+}
+.horizontalLine {
+    height:1px;
+    border-bottom: 1px solid $mainYellow;
+    width: 15vw;
+    max-width: 400px;
+}
+.projectDot {
+    background-color: $highlightPink;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.projectDescription {
+    margin-left: 20px;
+}
+.projectItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    &__body {
+        width: 400px;
+        font-size: 1.2rem;
+        font-family: $textFont;
+    }
+    &__header {
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-bottom: 20px;
+    }
+    &__headerText {
+        color: $lighterGray;
+        font-size: 2rem;
+        font-family: $textFont;
+        margin-right: 30px;
+    }
+}
+.projLink {
+    margin-right: 20px;
+}
+
+.headerText {
+    font-family: $textFont;
+    font-size: 4rem;
+    color: $mainGray;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1243px) {
+    .projectItem {
+        flex-direction: column;
+    }
+    .horizontalLine {
+        width:1px;
+        height: 100px;
+        border-right: 1px solid $mainYellow;
+        
+    }
+    .headerText {
+        font-size: 3rem;
+    }
+    .projectItem {
+        &__headerText {
+        font-size: 1.5rem;
+        }
+        &__body {
+            width: 400px;
+            font-size: 1rem;
+            font-family: $textFont;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .headerText {
+        font-size: 2.3rem;
+    }
+    .projectItem {
+        &__headerText {
+        font-size: 1.2rem;
+        }
+        &__body {
+            width: 300px;
+            font-size: 1rem;
+            font-family: $textFont;
+        }
+    }
+    .projLink {
+        margin-right: 10px;
+        font-size: 0.9rem;
+    }
+}

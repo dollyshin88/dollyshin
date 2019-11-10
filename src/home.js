@@ -1,50 +1,48 @@
-import React, { useState } from 'react';
-import { ScrollView, StyleSheet, ActivityIndicator, Text, Button } from 'react-native';
-
+import React from 'react';
+import {ScrollView, StyleSheet} from 'react-native';
+import Header from './header';
+import HelloSection from './helloSection';
+import AboutSection from './aboutSection';
+import ProjectsSection from './projectsSection';
+import ConnectSection from './connectSection';
+import SkillsSection from './skillsSection';
 
 const Home = () => {
-    let [loading, setLoading] = useState(true);
+
     return (
-        <ScrollView noSpacer={true} noScroll={true} contentContainerStyle={styles.center}>
-          {loading ? (
-            <ActivityIndicator
-              style={[styles.centering]}
-              color="#ff8179"
-              size="large"
-            />
-          ) : (
-            <Text style={styles.text}>Loaded</Text>
-          )}
-        <Button 
-            style={styles.button} 
-            onPress={()=> setLoading(false)}
-            title='click'/>
-        </ScrollView>
+        <div>
+          <Header />
+          <HelloSection />
+          <AboutSection />
+          <div className='lineGroup'>
+            <div className='connectLines'></div>
+            <div className='connectLines'></div>
+            <div className='connectLines'></div>
+            <div className='connectLines'></div>
+          </div>
+          <SkillsSection />
+          <div className='lineGroup'>
+            <div className='connectLines'></div>
+            <div className='connectLines'></div>
+            <div className='connectLines'></div>
+            <div className='connectLines'></div>
+          </div>
+          <ProjectsSection />
+          <div className='lineGroup'>
+            <div className='connectLines'></div>
+            <div className='connectLines'></div>
+            <div className='connectLines'></div>
+            <div className='connectLines'></div>
+          </div>
+          <ConnectSection />
+        </div>
       );
 }
 
 const styles = StyleSheet.create({
-    centering: {
-        margin: '10px auto',
-    }, 
-    container: {
-        flex: 1,
-        flexDirection: "row",
-        justifyContent: "flex-end",
-        alignItems: "center",
-        padding: 10
-      },
-    button: {
-        fontSize: 16,
-        color: 'white',
-        backgroundColor: 'green',
-    },
-    text: {
-        marginTop: 20,
-        marginLeft: 'auto',
-        marginRight: 'auto',
-        fontSize: 30,
-    }
+  center: {
+    position: 'relative'
+  }
 })
 
 export default Home;
