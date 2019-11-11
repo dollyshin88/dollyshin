@@ -1,47 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "21d9bb2507b1c91215731a93c314efcf",
+    "revision": "242ccd5c3a47d523e85fd0cda15e29d6",
     "url": "/hello/index.html"
   },
   {
-    "revision": "71d9029ed3c3fc492981",
-    "url": "/hello/static/css/main.3d205ece.chunk.css"
+    "revision": "f7880ca4f697c23e7d93",
+    "url": "/hello/static/css/main.61ed337f.chunk.css"
   },
   {
-    "revision": "f04f253cbc7b1f9f9285",
-    "url": "/hello/static/js/2.3421c352.chunk.js"
+    "revision": "50b82c9d9366f9811e92",
+    "url": "/hello/static/js/2.8d988be5.chunk.js"
   },
   {
-    "revision": "71d9029ed3c3fc492981",
-    "url": "/hello/static/js/main.f37ad043.chunk.js"
+    "revision": "f7880ca4f697c23e7d93",
+    "url": "/hello/static/js/main.fb69550e.chunk.js"
   },
   {
     "revision": "4a5972f4bf20b4897efb",
     "url": "/hello/static/js/runtime-main.69093a35.js"
   },
   {
-    "revision": "3001cff3181eefd8db327cd724309a09",
-    "url": "/hello/static/media/Caveat-Bold.3001cff3.ttf"
-  },
-  {
-    "revision": "b20ff458bc0dc48c039c68a3dc96173c",
-    "url": "/hello/static/media/Caveat-Regular.b20ff458.ttf"
-  },
-  {
     "revision": "21bfa07f01c1d5529f42b3a7e68e24f1",
     "url": "/hello/static/media/Dolly_Shin_Resume.21bfa07f.pdf"
-  },
-  {
-    "revision": "ade91f473255991f410f61857696434b",
-    "url": "/hello/static/media/Montserrat-Bold.ade91f47.ttf"
-  },
-  {
-    "revision": "c8b6e083af3f94009801989c3739425e",
-    "url": "/hello/static/media/Montserrat-Medium.c8b6e083.ttf"
-  },
-  {
-    "revision": "ee6539921d713482b8ccd4d0d23961bb",
-    "url": "/hello/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
     "revision": "f616e41cb2c9df1a734fb99e84fc6821",
