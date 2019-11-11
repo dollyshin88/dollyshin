@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hello/static/css/main.61ed337f.chunk.css",
+    "main.css": "/hello/static/css/main.b8281621.chunk.css",
     "main.js": "/hello/static/js/main.fb69550e.chunk.js",
     "main.js.map": "/hello/static/js/main.fb69550e.chunk.js.map",
     "runtime-main.js": "/hello/static/js/runtime-main.69093a35.js",
@@ -8,9 +8,9 @@
     "static/js/2.8d988be5.chunk.js": "/hello/static/js/2.8d988be5.chunk.js",
     "static/js/2.8d988be5.chunk.js.map": "/hello/static/js/2.8d988be5.chunk.js.map",
     "index.html": "/hello/index.html",
-    "precache-manifest.d7960dfe01500ffda3c985679e4b459d.js": "/hello/precache-manifest.d7960dfe01500ffda3c985679e4b459d.js",
+    "precache-manifest.9a348ef2850278fb3aedae70d6250f2c.js": "/hello/precache-manifest.9a348ef2850278fb3aedae70d6250f2c.js",
     "service-worker.js": "/hello/service-worker.js",
-    "static/css/main.61ed337f.chunk.css.map": "/hello/static/css/main.61ed337f.chunk.css.map",
+    "static/css/main.b8281621.chunk.css.map": "/hello/static/css/main.b8281621.chunk.css.map",
     "static/media/Dolly_Shin_Resume.pdf": "/hello/static/media/Dolly_Shin_Resume.21bfa07f.pdf",
     "static/media/cssIcon.svg": "/hello/static/media/cssIcon.f616e41c.svg",
     "static/media/expressIcon.svg": "/hello/static/media/expressIcon.93ed2ff9.svg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.69093a35.js",
     "static/js/2.8d988be5.chunk.js",
-    "static/css/main.61ed337f.chunk.css",
+    "static/css/main.b8281621.chunk.css",
     "static/js/main.fb69550e.chunk.js"
   ]
 }
