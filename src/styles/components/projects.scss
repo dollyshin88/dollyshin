@@ -94,6 +94,11 @@
             font-family: $textFont;
         }
     }
+    .projectDot {
+        width: 15px;
+        height: 15px;
+        margin-bottom: 15px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -137,5 +142,10 @@
         &__body {
             width: 250px;
         }
+    }
+    .projectDot {
+        width: 15px;
+        height: 15px;
+        margin-bottom: 10px;
     }
 }
