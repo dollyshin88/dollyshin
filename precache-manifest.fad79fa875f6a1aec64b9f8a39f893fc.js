@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "577f6c9478b37352546abce9f61fa662",
+    "revision": "195a7572802d3aea5b41c4886f1e7e07",
     "url": "/hello/index.html"
   },
   {
-    "revision": "5def971b121bca100b58",
-    "url": "/hello/static/css/main.8948c786.chunk.css"
+    "revision": "626997ecf1badbdbf8f0",
+    "url": "/hello/static/css/main.06d7c6d0.chunk.css"
   },
   {
     "revision": "f04f253cbc7b1f9f9285",
     "url": "/hello/static/js/2.3421c352.chunk.js"
   },
   {
-    "revision": "5def971b121bca100b58",
+    "revision": "626997ecf1badbdbf8f0",
     "url": "/hello/static/js/main.f37ad043.chunk.js"
   },
   {
@@ -20,8 +20,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hello/static/js/runtime-main.69093a35.js"
   },
   {
+    "revision": "3001cff3181eefd8db327cd724309a09",
+    "url": "/hello/static/media/Caveat-Bold.3001cff3.ttf"
+  },
+  {
+    "revision": "b20ff458bc0dc48c039c68a3dc96173c",
+    "url": "/hello/static/media/Caveat-Regular.b20ff458.ttf"
+  },
+  {
     "revision": "21bfa07f01c1d5529f42b3a7e68e24f1",
     "url": "/hello/static/media/Dolly_Shin_Resume.21bfa07f.pdf"
+  },
+  {
+    "revision": "ade91f473255991f410f61857696434b",
+    "url": "/hello/static/media/Montserrat-Bold.ade91f47.ttf"
+  },
+  {
+    "revision": "c8b6e083af3f94009801989c3739425e",
+    "url": "/hello/static/media/Montserrat-Medium.c8b6e083.ttf"
+  },
+  {
+    "revision": "ee6539921d713482b8ccd4d0d23961bb",
+    "url": "/hello/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
     "revision": "f616e41cb2c9df1a734fb99e84fc6821",
