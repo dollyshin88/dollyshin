@@ -9,11 +9,14 @@
 
     margin-right: 20px;
     margin-bottom: 30px;
+
+    transition: all 0.3s ease-in;
     i {
         margin-right: 20px;
         font-size: 4rem;
         
     }
+
 }
 .connectCard:hover {
     background-color: $mainYellow;
