@@ -1,8 +1,6 @@
 import React from 'react';
 import {
   AppRegistry,
-  StyleSheet,
-  View,
 } from 'react-native';
 import Home from './home';
 

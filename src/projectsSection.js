@@ -12,20 +12,23 @@ const ProjectsSection = () => {
             img: sheepProjImg,
             liveSite: 'https://dollyshin88.github.io/sheep/',
             gitHub: 'https://github.com/dollyshin88/sheep', 
-            text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt error nisi veniam eius totam minima ducimus modi fugit sapiente non fugiat dignissimos maxime asperiores adipisci, eligendi magnam unde. Commodi, molestiae' },
+            text: 'Sheep is a simple and relaxing game where you can roam about a 3D nature space as a sheep. The idea came from my own need to take a few minutes of mental break after an intense coding session.',
+            stack: 'JavaScript, Three.js, HTML5, CSS3, Webpack'},
         {
             name: 'SAMASANA',
             img: samasanaProjImg,
             liveSite: 'https://samasana.herokuapp.com/',
             gitHub: 'https://github.com/dollyshin88/samasana',
-            text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt error nisi veniam eius totam minima ducimus modi fugit sapiente non fugiat dignissimos maxime asperiores adipisci, eligendi magnam unde. Commodi, molestiae'
+            text: 'Samasana, meaning an act of putting together, is a clone site of Asana, a task/project management software. This is my very first full-stack project and showcases the knowledge and skills gained from four months of an intense bootcamp program.',
+            stack: 'Ruby on Rails, PostgresSQL JavaScript, React, Redux, SASS, Webpack'
         },
         {
             name: 'NEURODB',
             img: neurodbProjImg,
             liveSite: 'https://neurodb.herokuapp.com/',
             gitHub: 'https://github.com/aliashafi/NeuroDB',
-            text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt error nisi veniam eius totam minima ducimus modi fugit sapiente non fugiat dignissimos maxime asperiores adipisci, eligendi magnam unde. Commodi, molestiae'
+            text: 'NeuroDB is a database tool to help researchers (particularly those studying intracranial Electrocorticography (ECoG)) manage patient metadata and research information. It was created as a prototype for a lab and it resulted in moving forward with building a full-blown product.',
+            stack: 'Express, MongoDB, Mongoose, Node, JavaScript, React, Redux, SASS'
         },
     ]
     return (
@@ -39,6 +42,7 @@ const ProjectsSection = () => {
                     liveSite={proj.liveSite}
                     gitHub={proj.gitHub}
                     text={proj.text}
+                    stack={proj.stack}
                 />
             ))}
         </div>

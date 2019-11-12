@@ -1,5 +1,4 @@
 import React from 'react';
-import {ScrollView, StyleSheet} from 'react-native';
 import Header from './header';
 import HelloSection from './helloSection';
 import AboutSection from './aboutSection';

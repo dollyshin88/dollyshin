@@ -1,6 +1,5 @@
 import React from 'react';
 import profilePhoto from './images/profile_photo_web.jpg';
-import resume from './images/Dolly_Shin_Resume.pdf';
 
 const AboutSection = () => {
 
@@ -8,7 +7,7 @@ const AboutSection = () => {
         <div id='aboutSection' className='sectionBuff'>
             <div className='leftSection flexContainerColumn flexTopMidAlign'>
                 <div className='photoCircle'>
-                    <img src={profilePhoto}/>
+                    <img alt='profile' src={profilePhoto}/>
                 </div>
                 <div className='zigzag scriptType'>/\/\/\/\/\</div>
                 <div className='flexContainerColumn textBlockGroup'>

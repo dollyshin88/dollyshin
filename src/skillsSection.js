@@ -22,56 +22,56 @@ const SkillsSection = () => {
             <div className='skillsIcon__groupWrap flexContainerRow flexCenterAlign flexWrap'>
                 
                 <div className='svgContainer flexContainerColumn flexCenterAlign'>
-                    <img src={jsIcon} />
+                    <img alt='JavaScript' src={jsIcon} />
                     <div className='label upMargin'>JavaScript</div>
                 </div>
                 <div className='svgContainer flexContainerColumn flexCenterAlign'>
-                    <img src={rubyIcon} />
+                    <img alt='Ruby' src={rubyIcon} />
                     <div className='label upMargin'>Ruby</div>
                 </div>
                 <div className='svgContainer flexContainerColumn flexCenterAlign'>
-                    <img src={railsIcon} />
+                    <img alt='Rails' src={railsIcon} />
                     <div className='label upMargin'>Rails</div>
                 </div>
                 <div className='svgContainer flexContainerColumn flexCenterAlign'>
-                    <img src={reactIcon} />
+                    <img alt='React' src={reactIcon} />
                     <div className='label upMargin'>React</div>
                 </div>
                 <div className='svgContainer flexContainerColumn flexCenterAlign'>
-                    <img src={reduxIcon} />
+                    <img alt='Redux' src={reduxIcon} />
                     <div className='label upMargin'>Redux</div>
                 </div>
                 <div className='svgContainer flexContainerColumn flexCenterAlign'>
-                    <img src={htmlIcon} />
+                    <img alt='HTML5' src={htmlIcon} />
                     <div className='label upMargin'>HTML5</div>
                 </div>
                 <div className='svgContainer flexContainerColumn flexCenterAlign'>
-                    <img src={cssIcon} />
+                    <img alt='CSS3' src={cssIcon} />
                     <div className='label upMargin'>CSS3</div>
                 </div>
                 <div className='svgContainer flexContainerColumn flexCenterAlign'>
-                    <img src={sassIcon} />
+                    <img alt='SASS' src={sassIcon} />
                     <div className='label upMargin'>SASS</div>
                 </div>
                 <div className='svgContainer flexContainerColumn flexCenterAlign'>
-                    <img src={nodeIcon} />
+                    <img alt='Node' src={nodeIcon} />
                     <div className='label upMargin'>Node.js</div>
                 </div>
                 <div className='svgContainer flexContainerColumn flexCenterAlign'>
-                    <img src={expressIcon} />
+                    <img alt='Express' src={expressIcon} />
                     <div className='label upMargin'>Express</div>
                 </div>
                 <div className='svgContainer flexContainerColumn flexCenterAlign'>
-                    <img src={gitIcon} />
+                    <img alt='Git' src={gitIcon} />
                     <div className='label upMargin'>Git</div>
                 </div>
                 <div className='svgContainer flexContainerColumn flexCenterAlign'>
-                    <img src={postIcon} />
+                    <img alt='PostgresSQL' src={postIcon} />
                     <div className='label upMargin'>PostgresSQL</div>
                 </div>
                 
                 <div className='svgContainer flexContainerColumn flexCenterAlign'>
-                    <img src={mongoIcon} />
+                    <img alt='MongoDB' src={mongoIcon} />
                     <div className='label upMargin'>MongoDB</div>
                 </div>
             </div>

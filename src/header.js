@@ -1,5 +1,5 @@
 import React from 'react';
-import { Platform, StyleSheet, View, Text, TouchableOpacity } from 'react-native';
+import { Platform } from 'react-native';
 
 const Header = () => {
     return (
@@ -25,21 +25,21 @@ const Header = () => {
     );
 }
 
-const styles = StyleSheet.create({
-    menuBtn: {
-        flexDirection: "row",
-        justifyContent: "space-between",
-        alignItems: "center",
-        width: 70,
-        color: '#fff',
-        fontSize: "1.2rem"
-    },
-    headerTxt: {
-        color: '#fff',
-        fontSize: '1.2rem',
-        fontFamily: 'Montserrat-Regular',
-        marginBottom: 3
-    },
-})
+// const styles = StyleSheet.create({
+//     menuBtn: {
+//         flexDirection: "row",
+//         justifyContent: "space-between",
+//         alignItems: "center",
+//         width: 70,
+//         color: '#fff',
+//         fontSize: "1.2rem"
+//     },
+//     headerTxt: {
+//         color: '#fff',
+//         fontSize: '1.2rem',
+//         fontFamily: 'Montserrat-Regular',
+//         marginBottom: 3
+//     },
+// })
 
 export default Header;
