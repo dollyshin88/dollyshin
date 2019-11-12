@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f958b979a3f4ca665686f50898beddb1",
+    "revision": "8495257bc28c9864a36371924edf6402",
     "url": "/hello/index.html"
   },
   {
-    "revision": "61f10dcbf86f468e072b",
-    "url": "/hello/static/css/main.921cb090.chunk.css"
+    "revision": "b648a97f3384d0e9896a",
+    "url": "/hello/static/css/main.a20ca456.chunk.css"
   },
   {
-    "revision": "50b82c9d9366f9811e92",
-    "url": "/hello/static/js/2.8d988be5.chunk.js"
+    "revision": "8aa41bcaa0794f408a30",
+    "url": "/hello/static/js/2.6bf06c43.chunk.js"
   },
   {
-    "revision": "61f10dcbf86f468e072b",
-    "url": "/hello/static/js/main.848008f5.chunk.js"
+    "revision": "b648a97f3384d0e9896a",
+    "url": "/hello/static/js/main.ad6e15e3.chunk.js"
   },
   {
     "revision": "4a5972f4bf20b4897efb",
     "url": "/hello/static/js/runtime-main.69093a35.js"
-  },
-  {
-    "revision": "21bfa07f01c1d5529f42b3a7e68e24f1",
-    "url": "/hello/static/media/Dolly_Shin_Resume.21bfa07f.pdf"
   },
   {
     "revision": "f616e41cb2c9df1a734fb99e84fc6821",
