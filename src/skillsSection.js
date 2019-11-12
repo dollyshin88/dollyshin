@@ -18,7 +18,7 @@ import reactIcon from './images/svg/reactIcon.svg';
 const SkillsSection = () => {
     return (
         <div id='skillsSection'>
-            <div className='segmentHeader boldTextYellow'>Skills:</div>
+            <div className='segmentHeader boldTextYellow'>Skills</div>
             <div className='skillsIcon__groupWrap flexContainerRow flexCenterAlign flexWrap'>
                 
                 <div className='svgContainer flexContainerColumn flexCenterAlign'>

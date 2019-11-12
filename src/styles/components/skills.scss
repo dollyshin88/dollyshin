@@ -1,8 +1,8 @@
 #skillsSection {
     min-height: 200px;
-    margin: 10vw;
+    margin: 7vw;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
 }
@@ -19,7 +19,7 @@
 
 .segmentHeader {   
     font-size: 2.5rem;
-    margin-right: 50px;
+    margin-bottom: 50px;
 }
 .boldTextYellow {
     font-family: $textMed;
@@ -43,9 +43,6 @@
     }
     .segmentHeader {   
         font-size: 2rem;
-        margin-bottom: 50px;
-        margin-left: 0;
-        margin-right: 0;
         text-align: center;
     }
 }
