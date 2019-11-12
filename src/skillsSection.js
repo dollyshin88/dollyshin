@@ -63,11 +63,11 @@ const SkillsSection = () => {
                 </div>
                 <div className='svgContainer flexContainerColumn flexCenterAlign'>
                     <img src={gitIcon} />
-                    <div className='label upMargin'>git</div>
+                    <div className='label upMargin'>Git</div>
                 </div>
                 <div className='svgContainer flexContainerColumn flexCenterAlign'>
                     <img src={postIcon} />
-                    <div className='label upMargin'>PostgreSQL</div>
+                    <div className='label upMargin'>PostgresSQL</div>
                 </div>
                 
                 <div className='svgContainer flexContainerColumn flexCenterAlign'>

@@ -23,11 +23,13 @@
 }
 .boldTextYellow {
     font-family: $textMed;
+    font-weight: 500;
     color: $textYellow;
 }
 .label {
     font-size: 0.8rem;
     font-family:$textFont;
+    font-weight: 400;
     color: $lightGray;
     margin-bottom:30px;
 }

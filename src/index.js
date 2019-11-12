@@ -3,7 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import WebFont from 'webfontloader';
 
+WebFont.load({
+    google: {
+        families: ['Caveat:400,700', 'Montserrat:400, 500, 700']
+    }
+})
 document.addEventListener("DOMContentLoaded", () => {
     ReactDOM.render(<App />, document.getElementById('root'));
 })

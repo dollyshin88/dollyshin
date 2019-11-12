@@ -7,6 +7,7 @@
 }
 .link {
     font-family: $textFont;
+    font-weight: 400;
 }
 .linkPink {
     color: $highlightPink;
@@ -61,6 +62,7 @@
     height: 50px;
     color: $textYellow;
     font-family: $textMed;
+    font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,6 +90,7 @@
 
 .scriptType {
     font-family: $emphFont;
+    font-weight: 700;
 }
 
 @media screen and (max-width: 1243px) {

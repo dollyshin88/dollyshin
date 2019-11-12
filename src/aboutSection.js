@@ -26,7 +26,7 @@ const AboutSection = () => {
                         <div className='hoverShowCard clickable'>
                             <div className='subHeaderText hoverPink'>Collaborative</div>
                             <div className='showCard'>
-                                <p className='supportText cardText'>I have my views, but I I openly invite different ones. I love to bounce ideas with others and see an idea mold into something better. And more importantly, I like to have fun while working together!
+                                <p className='supportText cardText'>I have my views, but I openly invite different ones. I love to bounce ideas with others and see an idea mold into something better. And more importantly, I like to have fun while working together!
                                 </p>
                             </div>
                         </div>

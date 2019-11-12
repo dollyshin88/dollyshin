@@ -1,6 +1,49 @@
 
+// @import './fonts/Caveat-Bold.ttf';
+// @import './fonts/Caveat-Regular.ttf';
+// @import './fonts/Montserrat-Bold.ttf';
+// @import './fonts/Montserrat-Medium.ttf';
+// @import './fonts/Montserrat-Regular.ttf';
+
+// @font-face {
+//     font-family: 'Caveat-Regular';
+//     font-style: normal;
+//     font-weight: normal;
+//     src: local('Caveat-Regular'), url('./fonts/Caveat-Regular.ttf') format('ttf');
+// }
+
+// @font-face {
+//     font-family: 'Caveat-Bold';
+//     font-style: normal;
+//     font-weight: bold;
+//     src: local('Caveat-Bold'), url('./fonts/Caveat-Bold.ttf') format('ttf');
+// }
+
+// @font-face {
+//     font-family: 'Montserrat-Regular';
+//     font-style: normal;
+//     font-weight: normal;
+//     src: local('Montserrat-Regular'), url('./fonts/Montserrat-Regular.ttf') format('ttf');
+// }
+
+// @font-face {
+//     font-family: 'Montserrat-Medium';
+//     font-style: normal;
+//     font-weight: bold;
+//     src: local('Montserrat-Medium'), url('./fonts/Montserrat-Medium.ttf') format('ttf');
+// }
+// @font-face {
+//     font-family: 'Montserrat-Bold';
+//     font-style: normal;
+//     font-weight: bolder;
+//     src: local('Montserrat-Bold'), url('./fonts/Montserrat-Bold.ttf') format('ttf');
+// }
+
+
+
 
 @import 'styles/reset.scss';
+// @import 'styles/fonts.scss';
 @import 'styles/config.scss';
 @import 'styles/components/headerNav.scss';
 @import 'styles/components/hello.scss';

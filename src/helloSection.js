@@ -5,7 +5,7 @@ const HelloSection = () => {
     return (
         <div id='hello' className='colorBlockDiv'>
             <div className='introText'>
-                <div>Hello, I am </div>
+                <div id='hellotext'>Hello, I am </div>
                 <div className='posRel introText__placeholder flexContainerRow flexCenterAlign'>
                     <div className='introText__static scriptType'>Dolly Shin</div>
                     <div className='introText__animated scriptType'>A CREATOR</div>
