@@ -1,6 +1,6 @@
 import React from 'react';
 import profilePhoto from './images/profile_photo_web.jpg';
-
+import resume from './images/Dolly_Shin_Resume.pdf';
 const AboutSection = () => {
 
     return (
@@ -38,7 +38,7 @@ const AboutSection = () => {
                 <div className='headlineText'>
                     I am a full stack developer based in <span>San Francisco</span>, with a passion for creating <span>purposful</span> and <span>intuitive</span> applications.
                 </div>
-                <div className='btn btnHoverYellow' onClick={() => { window.open('./static/media/Dolly_Shin_Resume.21bfa07f.pdf') }}>
+                <div className='btn btnHoverYellow' onClick={() => { window.open(resume) }}>
                     <p>Download Resume</p>
                 </div>
                 
