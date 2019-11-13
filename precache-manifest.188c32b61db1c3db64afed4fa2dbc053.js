@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5682cbea45d3298871fef2039287efba",
+    "revision": "6a198ea00ab671bdab87dc33c7635a74",
     "url": "/hello/index.html"
   },
   {
-    "revision": "e7edd9fa7545e301ee23",
+    "revision": "213e399eb2176ab29d04",
     "url": "/hello/static/css/main.58a688a0.chunk.css"
   },
   {
-    "revision": "8aa41bcaa0794f408a30",
-    "url": "/hello/static/js/2.6bf06c43.chunk.js"
+    "revision": "e6b6d46523c27114b705",
+    "url": "/hello/static/js/2.b2fd929e.chunk.js"
   },
   {
-    "revision": "e7edd9fa7545e301ee23",
-    "url": "/hello/static/js/main.9f28a873.chunk.js"
+    "revision": "213e399eb2176ab29d04",
+    "url": "/hello/static/js/main.d346325c.chunk.js"
   },
   {
     "revision": "4a5972f4bf20b4897efb",
     "url": "/hello/static/js/runtime-main.69093a35.js"
+  },
+  {
+    "revision": "21bfa07f01c1d5529f42b3a7e68e24f1",
+    "url": "/hello/static/media/Dolly_Shin_Resume.21bfa07f.pdf"
   },
   {
     "revision": "f616e41cb2c9df1a734fb99e84fc6821",
