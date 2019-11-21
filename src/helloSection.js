@@ -1,7 +1,7 @@
 import React from 'react';
 
 const HelloSection = () => {
-
+    
     return (
         <div id='hello' className='colorBlockDiv'>
             <div className='introText'>
@@ -17,7 +17,7 @@ const HelloSection = () => {
                     </div>
                 </div>
             </div>
-            <i class="fas fa-chevron-down"></i>
+            <a href='#aboutSection'><i class="fas fa-chevron-down"></i></a>
         </div>
     );
 }
