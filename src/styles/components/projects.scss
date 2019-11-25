@@ -109,6 +109,9 @@
             font-family: $textFont;
             font-weight: 400;
         }
+        &__stack{
+            font-size: 0.8rem;
+        }
     }
     .projectDot {
         width: 15px;
@@ -140,6 +143,9 @@
             font-family: $textFont;
             font-weight: 400;
         }
+        &__stack {
+            width: 300px;
+        }
     }
     .projLink {
         margin-right: 10px;
@@ -158,6 +164,9 @@
     }
     .projectItem {
         &__body {
+            width: 250px;
+        }
+        &__stak {
             width: 250px;
         }
     }
