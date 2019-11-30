@@ -19,8 +19,8 @@ const ProjectsSection = () => {
             img: samasanaProjImg,
             liveSite: 'https://samasana.herokuapp.com/',
             gitHub: 'https://github.com/dollyshin88/samasana',
-            text: 'Samasana, meaning an act of putting together, is a clone site of Asana, a task/project management software. This is my very first full-stack project and showcases the knowledge and skills gained from four months of an intense bootcamp program.',
-            stack: 'Ruby on Rails, PostgresSQL JavaScript, React, Redux, SASS, Webpack'
+            text: 'Samasana, meaning an act of putting together, is a clone site of Asana, a task/project management software. This is my very first full-stack project and showcases the knowledge and skills gained from four months of the intense bootcamp program at App Academy.',
+            stack: 'Ruby on Rails, PostgresSQL, JavaScript, React, Redux, SASS, Webpack'
         },
         {
             name: 'NEURODB',
